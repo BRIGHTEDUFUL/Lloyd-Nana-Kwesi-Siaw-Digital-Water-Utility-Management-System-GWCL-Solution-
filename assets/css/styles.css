@@ -25,6 +25,8 @@ body {
 .nav { display: flex; gap: 14px; padding-bottom: 14px; flex-wrap: wrap; }
 .nav a { color: var(--text); text-decoration: none; padding: 6px 10px; border-radius: 999px; border: 1px solid #1f2937; }
 .nav a:hover { background: #0b1325; border-color: #2a3648; }
+.nav a.btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: white; border: none; font-weight: 600; padding: 8px 20px; }
+.nav a.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(34, 197, 94, 0.3); }
 
 main { padding: 28px 0; }
 .card { background: var(--panel); border: 1px solid #1f2937; border-radius: 16px; padding: 20px; margin: 18px 0; }
