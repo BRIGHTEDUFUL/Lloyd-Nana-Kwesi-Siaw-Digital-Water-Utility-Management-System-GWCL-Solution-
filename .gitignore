@@ -1,7 +1,17 @@
-/desktop.ini
-/Discord.lnk
-/Nhana K. Otto.code-workspace
-/Telegram.lnk
-/WoJ XInput Emulator.lnk
-/WPS Office.lnk
-/WPS PDF.lnk
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
